@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/BusStopHeaderDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="bus_stop_description"
+        android:layout_margin="2dp"
+        android:textStyle="bold"
+        android:paddingLeft="15dp"
+        android:textSize="25dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="15dp" />
+    <TextView
+        android:id="@+id/BusStopHeaderDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="bus_stop_details"
+        android:layout_margin="2dp"
+        android:textStyle="normal"
+        android:paddingLeft="15dp"
+        android:textSize="18dp"
+        android:paddingBottom="5dp" />
+    <TextView
+        android:id="@+id/BusStopHeaderServices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="bus_stop_services"
+        android:layout_margin="2dp"
+        android:textStyle="normal"
+        android:paddingLeft="15dp"
+        android:textSize="18dp" />
+</LinearLayout>

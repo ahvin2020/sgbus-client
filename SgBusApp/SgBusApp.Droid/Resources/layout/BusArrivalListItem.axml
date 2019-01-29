@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/BusArrivalItemServiceNo"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:text="999A"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="15dp"
+        android:gravity="center"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/BusArrivalItemTiming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bus_arrival_item_timing"
+            android:textSize="22dp" />
+        <TextView
+            android:id="@+id/BusArrivalItemDestination"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="destination"
+            android:textSize="22dp" />
+    </LinearLayout>
+</LinearLayout>
